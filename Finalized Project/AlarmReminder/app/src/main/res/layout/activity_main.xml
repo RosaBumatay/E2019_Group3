@@ -10,8 +10,8 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="164dp"
-        android:background="?attr/colorPrimary"
+        android:layout_height="199dp"
+        android:background="@drawable/happy2"
         android:minHeight="?attr/actionBarSize"
         app:contentInsetLeft="0dp"
         app:contentInsetStart="16dp"
@@ -20,14 +20,18 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="214dp"
+        android:layout_width="175dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="11dp"
-        android:layout_marginEnd="169dp"
-        android:layout_marginRight="169dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="194dp"
+        android:layout_marginRight="194dp"
         android:gravity="center"
         android:text="Welcome"
         android:textColor="#ffffff"
@@ -50,23 +54,25 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="100dp"
+        android:layout_width="114dp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/EmailShow"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="85dp"
-        android:layout_marginEnd="9dp"
-        android:layout_marginRight="9dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
         android:layout_marginBottom="77dp"
+        android:background="@drawable/buttonback2"
         android:text="Logout" />
 
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="641dp"
         android:layout_below="@+id/toolbar"
-        android:layout_marginTop="-11dp" />
+        android:layout_marginTop="-55dp"
+        android:background="@drawable/rectangle" />
 
     <RelativeLayout
         android:id="@+id/empty_view"
@@ -97,7 +103,7 @@
         android:layout_marginRight="@dimen/fab_margin"
         android:layout_marginBottom="@dimen/fab_margin"
         android:src="@drawable/ic_add"
-        app:backgroundTint="@color/colorPrimary"
+        app:backgroundTint="@color/colorAccent"
         app:fabSize="normal" />
 
 </RelativeLayout>
