@@ -57,7 +57,7 @@ b.execute(Password,Email);
 
     String password = params[0];
     String email = params[1];
-    String data="";
+    String data = "";
     int tmp;
 
     try {
